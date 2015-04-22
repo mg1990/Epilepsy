@@ -39,5 +39,6 @@ confusion_matrix<- table(f2_predict,f2.test$type)
 accuracy<- sum(diag(confusion_matrix))/504
 #Accuracy 68.8% on test data using training model
 
+#Project Completed
 
 
